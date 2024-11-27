@@ -1,14 +1,10 @@
 .top-box {
     height: 80px;
-    /* width: 100%; */
     background-color: #0a0a0a;
     color: white;
-   
     display: grid;
     grid-template-columns: 15fr 1fr 15fr;
     grid-gap: 10px;
-
-    
     padding: 0px;
 }
 .top-box > .left-wrapper {
@@ -23,14 +19,11 @@
     display: flex;
     justify-content: center;
     margin: 20px 80px 20px 60px;
-
 }
 .top-box > .left-wrapper > .logo img {
     width: 220px;
     height: 100%;
 }
-
-
 .top-box > .left-wrapper > .left-nav-bar{
     width: 100%;
     display: grid;
