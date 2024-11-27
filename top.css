@@ -1,0 +1,135 @@
+.top-box {
+    height: 80px;
+    /* width: 100%; */
+    background-color: #0a0a0a;
+    color: white;
+   
+    display: grid;
+    grid-template-columns: 15fr 1fr 15fr;
+    grid-gap: 10px;
+
+    
+    padding: 0px;
+}
+.top-box > .left-wrapper {
+    height: 80px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-box > .left-wrapper > .logo {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 80px 20px 60px;
+
+}
+.top-box > .left-wrapper > .logo img {
+    width: 220px;
+    height: 100%;
+}
+
+
+.top-box > .left-wrapper > .left-nav-bar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 0px 20px;
+}
+.top-box > .left-wrapper > .left-nav-bar > .nav-bar-title {
+    height: 35px;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    color: #eac356;
+    margin-bottom: 5px;
+}
+.top-box > .left-wrapper > .left-nav-bar > .nav-bar {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    margin-bottom: 5px;
+}
+.top-box > .left-wrapper > .left-nav-bar > .nav-bar > .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+.top-box > .center-wrapper {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(148, 140, 140);
+}
+.top-box > .center-wrapper > .center-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    font-weight: 430;
+    margin-bottom: 20px;
+}
+.top-box > .center-wrapper > .chevron {
+    display: flex;
+    align-items: end;
+    margin-bottom: 22px
+}
+.top-box > .rigth-wrapper {
+    width: 700px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.top-box > .rigth-wrapper > .sing-up-btn {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.top-box > .rigth-wrapper > .icon {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #3d3d43;
+}
+.top-box > .rigth-wrapper > .create i {
+    color: rgb(23, 185, 131);
+}
+.btn-create {
+    background-color: #3d3d43;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 140px;
+    height: 60px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 550; 
+}
+.btn-log-in {
+    background-color: #3d3d43;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100px;
+    height: 60px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 550; 
+}
+.btn-sing-up {
+    background-color: #3d3d43;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 120px;
+    height: 60px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 550; 
+}
